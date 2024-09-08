@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.con-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 80vh;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ffffa0;
+    color: #333;
+}
+
+.con-style button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+}
+
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 10vh;
+}
+
+.points div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    transition: all.5s;
+}
+
+#img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    transition: .5s;
+}
